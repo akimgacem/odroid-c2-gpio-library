@@ -26,7 +26,7 @@
 #ifndef __CUSTOM_ODROIDC2_GPIO__
 #define __CUSTOM_ODROIDC2_GPIO__
 
-/* GPIO's from 40-GPIO Header */
+/* GPIO's from 40-GPIO Header, rev 0.2 20160226 */
 #define GPIO_03 205
 #define GPIO_05 206
 #define GPIO_11 247
@@ -46,9 +46,8 @@
 #define GPIO_35 214
 #define GPIO_36 218
 
-
 /* GPIO's from 7-GPIO Header */
-// PIN 1 : Ground
+// PIN 41 : Ground
 #define GPIO_44 130
 #define GPIO_45 132
 #define GPIO_46 131
