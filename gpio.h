@@ -46,6 +46,14 @@
 #define GPIO_35 214
 #define GPIO_36 218
 
+
+/* GPIO's from 7-GPIO Header */
+// PIN 1 : Ground
+#define GPIO_44 130
+#define GPIO_45 132
+#define GPIO_46 131
+#define GPIO_47 133
+
 /* GPIO MODE */
 #define GPIO_INPUT 1
 #define GPIO_OUTPUT 0
