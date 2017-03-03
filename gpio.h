@@ -46,12 +46,29 @@
 #define GPIO_35 214
 #define GPIO_36 218
 
-/* GPIO's from 7-GPIO Header */
+/* GPIO's from 7-GPIO Header, WiringPi can't handle these GPIO */
 // PIN 41 : Ground
 #define GPIO_44 130
 #define GPIO_45 132
 #define GPIO_46 131
 #define GPIO_47 133
+
+/*
+ * For there, use WiringPi
+ *
+ * NAME------PHYSICAL---------WPi
+ * GPIO.249 - 07/40 - WiringPi.07
+ * GPIO.240 - 08/40 - WiringPi.15
+ * GPIO.241 - 10/40 - WiringPi.16
+ * GPIO.235 - 19/40 - WiringPi.12
+ * GPIO.232 - 21/40 - WiringPi.13
+ * GPIO.230 - 23/40 - WiringPi.14
+ * GPIO.229 - 24/40 - WiringPi.10
+ *
+ * AIN.1    - 37/40 - WiringPi.25
+ * AIN.0    - 40/40 - WiringPi.29
+ */
+
 
 /* GPIO MODE */
 #define GPIO_INPUT 1
